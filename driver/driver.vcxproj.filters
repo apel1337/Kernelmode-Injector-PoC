@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="core\linkers\client.h" />
+    <ClCompile Include="core\backend\oxorany\oxorany.cpp" />
+    <ClCompile Include="core\backend\rtl\rtl.cpp" />
+    <ClCompile Include="core\source\main.cpp" />
+    <ClCompile Include="core\source\scan.cpp" />
+    <ClCompile Include="core\source\rwx.cpp" />
+    <ClCompile Include="core\source\client.cpp" />
+    <ClCompile Include="core\source\handler.cpp" />
+    <ClCompile Include="core\source\nmi.cpp" />
+    <ClCompile Include="core\source\proc.cpp" />
+    <ClCompile Include="core\source\gadget.cpp" />
+    <ClCompile Include="core\source\page.cpp" />
+    <ClCompile Include="core\source\exports.cpp" />
+    <ClCompile Include="core\source\logs.cpp" />
+    <ClCompile Include="core\source\kthread.cpp" />
+    <ClCompile Include="core\linkers\flush.h" />
+    <ClCompile Include="core\source\flush.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\linkers\stdafx.h" />
+    <ClInclude Include="core\linkers\scan.h" />
+    <ClInclude Include="core\backend\crt.hpp" />
+    <ClInclude Include="core\backend\winapi.hpp" />
+    <ClInclude Include="core\linkers\ia32.h" />
+    <ClInclude Include="core\linkers\handler.h" />
+    <ClInclude Include="core\backend\oxorany\oxorany.h" />
+    <ClInclude Include="core\backend\oxorany\oxorany_include.h" />
+    <ClInclude Include="core\backend\rtl\rtl.h" />
+    <ClInclude Include="core\linkers\rwx.h" />
+    <ClInclude Include="core\backend\skcrypt\skcrypter.h" />
+    <ClInclude Include="core\linkers\nmi.h" />
+    <ClInclude Include="core\linkers\proc.h" />
+    <ClInclude Include="core\linkers\gadget.h" />
+    <ClInclude Include="core\linkers\page.h" />
+    <ClInclude Include="core\linkers\exports.h" />
+    <ClInclude Include="core\linkers\std.h" />
+    <ClInclude Include="core\linkers\logs.h" />
+    <ClInclude Include="core\linkers\kthread.h" />
+  </ItemGroup>
+</Project>
